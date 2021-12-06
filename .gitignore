@@ -9,9 +9,13 @@
 *.iws
 .idea/
 .shelf/
+/out/
 
 # Geany project file
 .geany
+
+####### STS
+/target/
 
 # KDevelop project file and directory
 .kdev4/
@@ -49,3 +53,10 @@ mainframer
 
 # exclude file created by the flatten plugin
 .flattened-pom.xml
+
+####### java
+# Compiled class file
+*.class
+
+# Log file
+*.log
